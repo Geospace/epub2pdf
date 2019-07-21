@@ -1,0 +1,25 @@
+{
+  "name": "epub2pdf",
+  "version": "1.0.0",
+  "description": "Convert EPUB files to PDF files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Geographer",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/multer": "^2.0.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "multer": "^1.4.1",
+    "swig-templates": "^2.0.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1"
+  }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,900|Roboto:700&display=swap');
+
+html {
+  font-size: 1.1em;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0.2em 1em 0 1em;
+
+  font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+}
+
+code {
+  font-family: Monaco, Consolas, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+}
+
+#big-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  color: #ba2d65;
+}
+
+#upload-form {
+  padding-bottom: 20px;
+}
+
+#loading {
+  margin-bottom: 40px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn {
+  border: 2px solid #ba2d65;
+  background-color: #ba2d65;
+
+  padding: 8px 20px;
+
+  color: white;
+  font-size: 20px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #c62828;
+}
+
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #ba2d65;
+}
